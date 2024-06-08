@@ -36,3 +36,7 @@ Este repositório possui o intuito de conter os códigos da atividade 2, no qual
 
 ### Steps do processo de CD
 
+* Checkout: realiza o checkout do repositório para que o workflow consiga acessar
+* Set up Docker Buildx: cria e inicializa um builder para que seja possível construir e exportar a imagem confeccionada
+* Log in to Docker Hub: faz o login no docker hub
+* Build and push API: constrói e publica a API no docker hub
